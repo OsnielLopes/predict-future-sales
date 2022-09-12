@@ -106,7 +106,7 @@ class WindowGenerator:
             if n == 0:
                 plt.legend()
 
-        plt.xlabel(plot_col)
+        plt.xlabel('Time [d]')
 
     def make_dataset(self, data):
         data = np.array(data, dtype=np.float32)
